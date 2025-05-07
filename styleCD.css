@@ -1,0 +1,70 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, blue, purple);
+}
+
+table {
+    width: 100%; /* Ajusta a largura da tabela */
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Garante que as bordas arredondadas sejam aplicadas */
+}
+
+td {
+    background-color: #fff; /* Cor de fundo branca */
+    padding: 20px; /* Espaçamento interno */
+    border: 2px solid #ccc; /* Borda da célula */
+    border-radius: 10px; /* Bordas arredondadas nas células */
+}
+
+.login-container {
+    text-align: center; /* Centraliza o texto dentro do container */
+}
+
+h1 {
+    color: #333; /* Cor do título */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 80%; /* Largura dos campos de entrada */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Margem superior e inferior */
+    border: 1px solid #ccc; /* Borda dos campos */
+    border-radius: 5px; /* Bordas arredondadas nos campos */
+}
+
+input[type="submit"] {
+    background-color: #A45EBE; /* Cor de fundo do botão roxo claro */
+    color: white; /* Cor do texto do botão */
+    padding: 10px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas no botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+input[type="submit"]:hover {
+    background-color: #8E4DA1; /* Cor de fundo do botão ao passar o mouse */
+}
+
+a {
+    color: #A45EBE; /* Cor dos links roxos claros */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+p {
+    margin-top: 10px; /* Margem superior para o parágrafo */
+}
