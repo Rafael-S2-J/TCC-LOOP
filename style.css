@@ -1,0 +1,57 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(to right, blue, #9370db); /* Degradê do cabeçalho */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    display: flex; /* Usar flexbox para alinhar itens */
+    justify-content: space-between; /* Espaço entre os itens */
+    align-items: center; /* Alinha verticalmente */
+}
+
+.header-content {
+    display: flex; /* Usar flexbox para alinhar itens */
+    justify-content: space-between; /* Espaço entre os itens */
+    width: 100%; /* Largura total */
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimento */
+    display: flex; /* Usar flexbox para alinhar itens */
+}
+
+nav ul li {
+    margin-left: 20px; /* Espaçamento entre os itens da lista */
+}
+
+nav ul li a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+main {
+    padding: 20px; /* Espaçamento interno do conteúdo principal */
+    text-align: center; /* Centraliza o texto */
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    position: relative; /* Para posicionamento */
+    bottom: 0; /* Fixa o rodapé na parte inferior */
+    width: 100%; /* Largura total */
+}
